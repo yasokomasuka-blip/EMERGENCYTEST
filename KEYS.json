@@ -1,0 +1,70 @@
+{
+  "KeySystem": {
+    "Settings": {
+      "Enabled": true,
+      "CheckOnInject": true,
+      "CheckInterval": 300,
+      "MaxAttempts": 3,
+      "LockOnInvalidKey": true,
+      "AllowHWIDLessKeys": true,
+      "AllowHWIDLockedKeys": true,
+      "HWIDLock": true
+    },
+    "Keys": {
+      "key1": {
+        "key": "PUBLIC-FREE-2024",
+        "type": "public",
+        "hwid": null,
+        "hwid_locked": false,
+        "max_users": 0,
+        "status": "active",
+        "expires": "permanent"
+      },
+      "key2": {
+        "key": "PREMIUM-USER1-XYZ",
+        "type": "premium",
+        "hwid": "HWID-ABC123",
+        "hwid_locked": true,
+        "max_users": 1,
+        "status": "active",
+        "expires": "permanent"
+      },
+      "key3": {
+        "key": "TRIAL-30DAY-2024",
+        "type": "trial",
+        "hwid": null,
+        "hwid_locked": false,
+        "max_users": 100,
+        "status": "active",
+        "expires": "30d"
+      },
+      "key4": {
+        "key": "VIP-USER2-789",
+        "type": "vip",
+        "hwid": "HWID-DEF456",
+        "hwid_locked": true,
+        "max_users": 1,
+        "status": "active",
+        "expires": "permanent"
+      },
+      "key5": {
+        "key": "BANNED-USER-KEY",
+        "type": "premium",
+        "hwid": "HWID-BANNED",
+        "hwid_locked": true,
+        "max_users": 1,
+        "status": "banned",
+        "expires": "permanent"
+      },
+      "key6": {
+        "key": "SHARED-PREMIUM-2024",
+        "type": "premium",
+        "hwid": null,
+        "hwid_locked": false,
+        "max_users": 5,
+        "status": "active",
+        "expires": "permanent"
+      }
+    }
+  }
+}
